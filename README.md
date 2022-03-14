@@ -1,20 +1,20 @@
-# AEON
+# BITRUBCOIN
 
-Copyright (c) 2014-2017, AEON, The Monero Project
+Copyright (c) 2014-2017, BITRUBCOIN, The Monero Project
 
 ## Development and Community Resources
 
-Web: http://aeon.cash  
-Reddit: https://reddit.com/r/aeon  
-Github: https://github.com/aeonix/aeon  
-IRC: #aeon  
+Web: http://bitrubcoin.cash  
+Reddit: https://reddit.com/r/bitrubcoin  
+Github: https://github.com/BRCprojects/bitrubcoin  
+IRC: #bitrubcoin  
 
 ## Introduction
 
-AEON is a private, secure, untraceable currency. You are your bank, you control your
+BITRUBCOIN is a private, secure, untraceable currency. You are your bank, you control your
 funds, and nobody can trace your transfers.
 
-Privacy: AEON uses a cryptographically sound system to allow you to send and receive
+Privacy: BITRUBCOIN uses a cryptographically sound system to allow you to send and receive
 funds without your transactions being easily revealed on the blockchain (the ledger of
 transactions that everyone has). This ensures that your purchases, receipts, and all
 transfers remain absolutely private by default.
@@ -25,15 +25,15 @@ mnemonic that is only displayed once, and can be written down to backup the wall
 files are encrypted with a passphrase to ensure they are useless if stolen.
 
 Untraceability: By taking advantage of ring signatures, a special property of certain
-types of cryptography, AEON is able to ensure that transactions are not only
+types of cryptography, BITRUBCOIN is able to ensure that transactions are not only
 untraceable, but have an optional measure of ambiguity that ensures that transactions
 cannot easily be tied back to an individual user or computer.
 
 ## About this Project
 
-This is the core implementation of AEON. It is open source and completely free to use
+This is the core implementation of BITRUBCOIN. It is open source and completely free to use
 without restrictions, except for those specified in the license agreement below. There are
-no restrictions on anyone creating an alternative implementation of AEON that uses the
+no restrictions on anyone creating an alternative implementation of BITRUBCOIN that uses the
 protocol and network in a compatible manner.
 
 As with many development projects, the repository on Github is considered to be the
@@ -44,7 +44,7 @@ considered before using it in a production environment, unless there is a patch 
 repository for a particular show-stopping issue you are experiencing. It is generally
 a better idea to use a tagged release for stability.
 
-Anyone is able to contribute to AEON. If you have a fix or code change, feel free to
+Anyone is able to contribute to BITRUBCOIN. If you have a fix or code change, feel free to
 submit is as a pull request. In cases where the change is relatively small or does not
 affect other parts of the codebase it may be merged in immediately by any one of the
 collaborators. On the other hand, if the change is particularly large or complex, it
@@ -58,7 +58,7 @@ request being submitted, or even directly on the pull request.
 3. One cause of high resource usage and long processing delays is the periodic saving of the blockchain every 12 hours. Doing so requires access to the entire memory space and potentially large amounts of swapping. It can be disabled using the `--disable-save` option. The blockchain will still be saved on exit or upon request using the save command.
 4. If using the rpc wallet (simplewallet --rpc-bind-port), access to the wallet RPC port will allow sending funds from the wallet. By default the rpc port is bound to the loopback interface so access is only possible from the same system. You are responsible for appropriately controlling/limiting access to the port (eg. using virtualization, firewall settings, etc.) to prevent loss of funds. If not using the --rpc-bind-port the wallet does not accept remote commands and this issue does not apply.
 
-## Compiling AEON
+## Compiling BITRUBCOIN
 
 On Unix and Linux:
 
@@ -94,7 +94,7 @@ Alternatively, it can be built in an easier and more automated fashion using Hom
 
 - Add the repository: brew tap sammy007/cryptonight
 
-- Build wallet: brew install --HEAD aeon
+- Build wallet: brew install --HEAD bitrubcoin
 
 On Windows:
 
@@ -114,7 +114,7 @@ Dependencies: MSVC 2013 or later, CMake 2.8.6 or later, and Boost 1.53 or later.
 
 ## Building Documentation
 
-AEON developer documentation uses Doxygen, and is currently a work-in-progress.
+BITRUBCOIN developer documentation uses Doxygen, and is currently a work-in-progress.
 
 Dependencies: Doxygen 1.8.0 or later, Graphviz 2.28 or later (optional)
 
@@ -127,7 +127,7 @@ Dependencies: Doxygen 1.8.0 or later, Graphviz 2.28 or later (optional)
 
 ## License
 
-Copyright (c) 2014-2017, AEON, The Monero Project
+Copyright (c) 2014-2017, BITRUBCOIN, The Monero Project
 
 All rights reserved.
 

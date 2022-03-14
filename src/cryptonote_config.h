@@ -1,4 +1,4 @@
-// Copyright (c) 2014, 2015 AEON, The Monero Project
+// Copyright (c) 2014, 2015 BITRUBCOIN, The Monero Project
 // 
 // All rights reserved.
 // 
@@ -113,7 +113,7 @@
 
 #define ALLOW_DEBUG_COMMANDS
 
-#define CRYPTONOTE_NAME                         "aeon"
+#define CRYPTONOTE_NAME                         "bitrubcoin"
 #define CRYPTONOTE_POOLDATA_FILENAME            "poolstate.bin"
 #define CRYPTONOTE_BLOCKCHAINDATA_FILENAME      "blockchain.bin"
 #define CRYPTONOTE_BLOCKCHAINDATA_TEMP_FILENAME "blockchain.bin.tmp"
